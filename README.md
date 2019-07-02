@@ -16,14 +16,18 @@
 </p>
 
 ## To run the whole system the following commands were used:
-<div>
-  test
-  ``` roscore ```
-</div>
-test 2
+<div> test </div>
+
+``` roscore ```
+
+<div> test </div>
+
 ```rosrun usb_cam usb_cam_node```
-test 3
+
+<div> test </div>
+
 ```rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 /world /head_camera```
+
 ```roslaunch open_manipulator_controller open_manipulator_controller.launch use_moveit=true```
 ```roslaunch ar_tag_toolbox ar_track_usb_cam.launch```
 ```roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch

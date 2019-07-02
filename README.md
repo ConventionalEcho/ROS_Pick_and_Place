@@ -14,10 +14,17 @@
 
 ## In advance of running the whole system the following things were done:
 <ul>
+  <li>Ubuntu 16.04 and ROS kinetic were installed</li>
   <li>This repository was installed in ~/catkin_ws and build using "catkin_make"</li>
-  <li>The camera was calibrated using the camera calibration program of ros (using a chess board)</li>
+  <li>The camera was calibrated using the camera calibration program of ROS (using a chess board)</li>
   <li>The autofocus of the camera was turned off</li>
 </ul> 
+```
+//to calibrate the camera with a chess board with squares of 0.03m and 5x7 blocks
+roscore    
+// to turn off the autofocus of the camera, this way there is no more need to calibrate everytime (untill shutdown)
+rosrun usb_cam usb_cam_node
+```
 
 ## To run the whole system the following commands were used:
 ```

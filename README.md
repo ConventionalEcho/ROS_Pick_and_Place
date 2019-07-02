@@ -48,9 +48,10 @@ roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch
   Error when starting open_manipulator_controller, Dynamixels not working. <br>
   Something like: [ERROR] [DynamixelDriver] Failed to open the port! <br>
 </p>
+
 <p>
-  Solutions for problem 1:
   <ul>
+    Solutions for problem 1:
     <li>Turn the power source to the opencr board on.</li>
     <li>Make sure the neccesary program is installed on the opencr board.</li>
     <li>Make sure all of the dynamixels are correctly configured (using R+ Manager 2.0), check for baud rate, id, etc </li>

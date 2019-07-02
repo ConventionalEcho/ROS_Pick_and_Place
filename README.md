@@ -32,12 +32,9 @@ roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch
 ```
 
 <ul>
-  <li>roscore</li>
-  <li>rosrun usb_cam usb_cam_node</li>
-  <li>rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 /world /head_camera</li>
-  <li>roslaunch open_manipulator_controller open_manipulator_controller.launch use_moveit=true</li>
-  <li>roslaunch ar_tag_toolbox ar_track_usb_cam.launch</li>
-  <li>roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch</li>
+  <li>This repository was installed in ~/catkin_ws and build using "catkin_make"</li>
+  <li>The camera was calibrated using the camera calibration program of ros (using a chess board)</li>
+  <li>The autofocus of the camera was turned off</li>
 </ul> 
 
 ## constructed with the OpenManipulator design

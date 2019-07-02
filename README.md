@@ -23,7 +23,7 @@
 ```
 //to calibrate the camera with a chess board with squares of 0.03m and 5x7 blocks
 rosrun camera_calibration cameracalibrator.py --size 5x7 --square 0.030166 image:=/usb_cam/image_raw camera:=/usb_cam --no-service-check  
-// to turn off the autofocus of the camera, this way there is no more need to calibrate everytime (untill shutdown)
+// to turn off the camera's autofocus, this way there is no more need to calibrate everytime (untill shutdown)
 uvcdynctrl --device=/dev/video0 --set='Focus, Auto' 0
 ```
 

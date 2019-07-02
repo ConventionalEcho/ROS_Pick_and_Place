@@ -16,7 +16,7 @@
 </p>
 
 ## To run the whole system the following commands were used:
-<div> test </div>
+test
 
 ``` roscore ```
 

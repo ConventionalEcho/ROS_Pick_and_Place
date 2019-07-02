@@ -16,8 +16,10 @@
 </p>
 
 ## To run the whole system the following commands were used:
-test
-``` roscore ```
+<div>
+  test
+  ``` roscore ```
+</div>
 test 2
 ```rosrun usb_cam usb_cam_node```
 test 3

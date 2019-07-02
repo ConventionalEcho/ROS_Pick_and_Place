@@ -47,17 +47,12 @@ roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch
   problem 1: <br> 
   Error when starting open_manipulator_controller, Dynamixels not working. <br>
   Something like: [ERROR] [DynamixelDriver] Failed to open the port! <br>
+</p>
+<p>
   Solutions for problem 1: <br>
   Turn the power source to the opencr board on.<br>
   Make sure the neccesary program is installed on the opencr board.<br>
   Make sure all of the dynamixels are correctly configured (using R+ Manager 2.0), check for baud rate, id, etc <br>
-  Make sure you are using the right serial port, check the name opencr boards usb name (something like ttyACM0) in the /dev directory. You can do this by typing ls in the /dev directory with the board plugged in and plugged out and watch difference in devices. If you are not using the correct usb port change open_manipulator_controller.launch<br>
-  Make sure you have the correct permissions over this serial usb port (use ls -al), change your permissions with: sudo chmod 777 ttyACM0. Ofcourse change ttyACM0 with the name of your usb port. <br>
+  Make sure you are using the right serial port, check the name opencr boards usb name (something like ttyACM0) in the /dev directory. You can do this by typing ls in the /dev directory with the board plugged in and plugged out and watch difference in devices. If you are not using the correct usb port change open_manipulator_controller.launch <br> 
+Make sure you have the correct permissions over this serial usb port (use ls -al), change your permissions with: sudo chmod 777 ttyACM0. Ofcourse change ttyACM0 with the name of your usb port. <br>
 </p>
-
-
-```
-//to calibrate the camera with a chess board with squares of 0.03m and 5x7 blocks
-rosrun camera_calibration cameracalibrator.py --size 5x7 --square 0.030166 image:=/usb_cam/image_raw camera:=/usb_cam --no-service-check  
-// to turn off the camera's autofocus, this way there is no more need to calibrate everytime (untill shutdown)
-uvcdynctrl --device=/dev/video0 --set='Focus, Auto' 0

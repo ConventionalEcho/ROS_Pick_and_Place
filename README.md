@@ -52,7 +52,7 @@ roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch
 ### Solutions for problem 1:
 <p>
   <ul>
-    <li>Turn the power source to the opencr board on.</li>
+    <li>Make sure the dynamixels are connected to the opencr board, and the opencr board is connected to both the power supply and the laptop.</li>
     <li>Make sure the neccesary program is installed on the opencr board.</li>
     <li>Make sure all of the dynamixels are correctly configured (using R+ Manager 2.0), check for baud rate, id, etc </li>
     <li>Make sure you are using the right serial port, check the name opencr boards usb name (something like ttyACM0) in the /dev directory. You can do this by typing ls in the /dev directory with the board plugged in and plugged out and watch difference in devices. If you are not using the correct usb port change open_manipulator_controller.launch</li> 

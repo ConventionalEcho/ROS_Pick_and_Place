@@ -1,0 +1,2 @@
+set(easy_handeye_MESSAGE_FILES "/home/ros/catkin_ws/src/easy_handeye/easy_handeye/msg/HandeyeCalibration.msg;/home/ros/catkin_ws/src/easy_handeye/easy_handeye/msg/SampleList.msg")
+set(easy_handeye_SERVICE_FILES "/home/ros/catkin_ws/src/easy_handeye/easy_handeye/srv/TakeSample.srv;/home/ros/catkin_ws/src/easy_handeye/easy_handeye/srv/ComputeCalibration.srv;/home/ros/catkin_ws/src/easy_handeye/easy_handeye/srv/RemoveSample.srv")

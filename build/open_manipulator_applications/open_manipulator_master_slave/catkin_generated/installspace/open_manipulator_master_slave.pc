@@ -1,0 +1,8 @@
+prefix=/home/ros/catkin_ws/install
+
+Name: open_manipulator_master_slave
+Description: Description of open_manipulator_master_slave
+Version: 1.0.0
+Cflags: -I/home/ros/catkin_ws/install/include
+Libs: -L/home/ros/catkin_ws/install/lib 
+Requires: roscpp robotis_manipulator open_manipulator_libs open_manipulator_msgs

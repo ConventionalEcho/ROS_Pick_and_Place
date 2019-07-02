@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/platform/openmanipulator_x/OpenManipulator.png" width="20%" height="20%">
+  <img src="https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/platform/openmanipulator_x/OpenManipulator.png" width="30%" height="30%">
 </p>
 
 ## Description
@@ -44,8 +44,10 @@ roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch
 ```
 ## Problems that you might encounter and the solutions for those problems
 problem 1: 
-Error when starting open_manipulator_controller, Dynamixels not working. 
-Something like: [ERROR] [DynamixelDriver] Failed to open the port!
+<p>
+  Error when starting open_manipulator_controller, Dynamixels not working: 
+  Something like: [ERROR] [DynamixelDriver] Failed to open the port!
+</p>
 Solution 1:
 blablabla
 

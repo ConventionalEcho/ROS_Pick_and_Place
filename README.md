@@ -16,7 +16,9 @@
 </p>
 
 ## To run the whole system the following commands were used:
+<div> test </div>
 ```roscore```
+<div> test 2 </div>
 ```rosrun usb_cam usb_cam_node```
 ```rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 /world /head_camera```
 ```roslaunch open_manipulator_controller open_manipulator_controller.launch use_moveit=true```

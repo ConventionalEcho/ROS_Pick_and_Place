@@ -43,13 +43,14 @@ roslaunch open_manipulator_controller open_manipulator_controller.launch use_mov
 roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch
 ```
 ## Problems that you might encounter and the solutions for those problems
-problem 1: 
 <p>
-  Error when starting open_manipulator_controller, Dynamixels not working: 
-  Something like: [ERROR] [DynamixelDriver] Failed to open the port!
+  problem 1: <br> 
+  Error when starting open_manipulator_controller, Dynamixels not working: <br>
+  Something like: [ERROR] [DynamixelDriver] Failed to open the port! <br>
+  Solution 1: <br>
+  blablabla
 </p>
-Solution 1:
-blablabla
+
 
 ```
 //to calibrate the camera with a chess board with squares of 0.03m and 5x7 blocks

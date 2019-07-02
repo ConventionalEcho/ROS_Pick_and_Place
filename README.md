@@ -1,5 +1,5 @@
 # OpenManipulator
-<p align="center" ><img src="https://github.com/ConventionalEcho/ROS_Pick_and_Place/blob/master/illustration.gif">
+<p align="center" ><img src="https://github.com/ConventionalEcho/ROS_Pick_and_Place/blob/master/illustration.gif" width="426" height="320">
 <img src="https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/platform/openmanipulator_x/OpenManipulator.png">
 <img src="https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/platform/openmanipulator_x/OpenManipulator_Chain_Capture.png" width="500">
 

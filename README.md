@@ -16,14 +16,16 @@
 </p>
 
 ## To run the whole system the following commands were used:
+```
 <ul>
-  <li>```roscore```</li>
+  <li>roscore</li>
   <li>rosrun usb_cam usb_cam_node</li>
   <li>rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 /world /head_camera</li>
   <li>roslaunch open_manipulator_controller open_manipulator_controller.launch use_moveit=true</li>
   <li>roslaunch ar_tag_toolbox ar_track_usb_cam.launch</li>
   <li>roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch</li>
-</ul>  
+</ul> 
+```
 
 ## constructed with the OpenManipulator design
 <img src="https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/platform/openmanipulator_x/OpenManipulator.png">

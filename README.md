@@ -42,3 +42,15 @@ roslaunch open_manipulator_controller open_manipulator_controller.launch use_mov
 // to start the pick and place program
 roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch
 ```
+## Problems that you might encounter and the solutions for those problems
+problem 1: 
+Error when starting open_manipulator_controller, Dynamixels not working. 
+Something like: [ERROR] [DynamixelDriver] Failed to open the port!
+Solution 1:
+blablabla
+
+```
+//to calibrate the camera with a chess board with squares of 0.03m and 5x7 blocks
+rosrun camera_calibration cameracalibrator.py --size 5x7 --square 0.030166 image:=/usb_cam/image_raw camera:=/usb_cam --no-service-check  
+// to turn off the camera's autofocus, this way there is no more need to calibrate everytime (untill shutdown)
+uvcdynctrl --device=/dev/video0 --set='Focus, Auto' 0

@@ -3,7 +3,6 @@
   <img src="https://github.com/ConventionalEcho/ROS_Pick_and_Place/blob/master/illustration.gif" width="426" height="320">
 </p>
 
-## constructed with the OpenManipulator design
 <img src="https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/platform/openmanipulator_x/OpenManipulator.png" width="20%" height="20%">
 
 ## Description

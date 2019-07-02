@@ -20,7 +20,7 @@
 </ul> 
 
 ## To run the whole system the following commands were used:
-```cpp
+```c++
 //to test 1
 roscore    
 // to test 2

@@ -19,6 +19,7 @@
   <li>The camera was calibrated using the camera calibration program of ROS (using a chess board)</li>
   <li>The autofocus of the camera was turned off</li>
 </ul> 
+
 ```
 //to calibrate the camera with a chess board with squares of 0.03m and 5x7 blocks
 rosrun camera_calibration cameracalibrator.py --size 5x7 --square 0.030166 image:=/usb_cam/image_raw camera:=/usb_cam --no-service-check  

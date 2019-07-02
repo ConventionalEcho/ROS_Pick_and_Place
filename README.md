@@ -43,7 +43,7 @@ roslaunch open_manipulator_controller open_manipulator_controller.launch use_mov
 roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch
 ```
 ## Problems that you might encounter and the solutions for those problems
-### problem 1
+### Problem 1:
 <p>
   Error when starting open_manipulator_controller, Dynamixels not working. <br>
   Something like: [ERROR] [DynamixelDriver] Failed to open the port! <br>

@@ -20,17 +20,17 @@
 </ul> 
 
 ## To run the whole system the following commands were used:
-```c
-//to test 1
+```
+//to start the core of the whole system
 roscore    
-// to test 2
+// to run the publisher for the camera images
 rosrun usb_cam usb_cam_node
-// to test 3
+// to publish a static transform of coordiantes from the camera frame to the world frame
 rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 /world /head_camera
-// to test 3
-roslaunch open_manipulator_controller open_manipulator_controller.launch use_moveit=true
-// to test 3
+// to publish the coordinates of the ar tags (using the published frames of the usb_cam node)
 roslaunch ar_tag_toolbox ar_track_usb_cam.launch
-// to test 3
+// to control the dynamixels and/or simulate the system
+roslaunch open_manipulator_controller open_manipulator_controller.launch use_moveit=true
+// to start the pick and place program
 roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch
 ```

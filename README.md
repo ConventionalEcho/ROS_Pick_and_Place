@@ -49,7 +49,7 @@ roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch
   Something like: [ERROR] [DynamixelDriver] Failed to open the port! <br>
 </p>
 <p>
-  Solutions for problem 1: <br>
+  Solutions for problem 1:
   <ul>
     <li>Turn the power source to the opencr board on.</li>
     <li>Make sure the neccesary program is installed on the opencr board.</li>

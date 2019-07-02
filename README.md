@@ -16,12 +16,10 @@
 </p>
 
 ## To run the whole system the following commands were used:
-test
-
-``` roscore ```
-test 1
-
-```rosrun usb_cam usb_cam_node```
+```cpp
+roscore                       //test 1
+rosrun usb_cam usb_cam_node   //test2
+```
 test 2
 
 ```rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 /world /head_camera```

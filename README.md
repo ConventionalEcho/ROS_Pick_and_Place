@@ -19,17 +19,20 @@
 test
 
 ``` roscore ```
-
-<div> test </div>
+test 1
 
 ```rosrun usb_cam usb_cam_node```
-
-<div> test </div>
+test 2
 
 ```rosrun tf2_ros static_transform_publisher 0 0 0 0 0 0 1 /world /head_camera```
+test 3
 
 ```roslaunch open_manipulator_controller open_manipulator_controller.launch use_moveit=true```
+test 4
+
 ```roslaunch ar_tag_toolbox ar_track_usb_cam.launch```
+test 5
+
 ```roslaunch open_manipulator_pick_and_place open_manipulator_pick_and_place.launch
 
 
